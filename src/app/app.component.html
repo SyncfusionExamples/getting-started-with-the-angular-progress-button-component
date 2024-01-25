@@ -1,0 +1,4 @@
+<button #progressBtn ejs-progressbutton content="Download" 
+iconCss="e-btn-sb-icons e-download-icon" iconPosition="Right"
+cssClass="e-hide-spinner" [enableProgress]="true"
+(begin)='Begin($event)' (end)='End($event)'></button>
